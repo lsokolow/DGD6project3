@@ -1,0 +1,593 @@
+fileFormatVersion: 2
+guid: 1c16b9e68b843054aaf93d99afa7a253
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7802404171032503597
+    second: rabbit_sweet_dress
+  - first:
+      213: -2301338423153645352
+    second: ln_rabbit_sweet_2
+  - first:
+      213: 5951727302275153282
+    second: rabbit_sweet_hair
+  - first:
+      213: -8460656846071057103
+    second: rabbit_sweet_hair2
+  - first:
+      213: 4733279012387400702
+    second: rabbit_sweet_hair3
+  - first:
+      213: -5489924748666529784
+    second: rabbit_sweet_headband
+  - first:
+      213: -2465549964096271042
+    second: rabbit_sweet_sleeve
+  - first:
+      213: 2731828480482102788
+    second: rabbit_sweet_bag1
+  - first:
+      213: 5958996776831559189
+    second: rabbit_sweet_bag2
+  - first:
+      213: -7707296455346874790
+    second: rabbit_sweet_shoe1
+  - first:
+      213: 2647868917975613986
+    second: rabbit_sweet_shoe2
+  - first:
+      213: 3187029084469894180
+    second: rabbit_sweet_sock1
+  - first:
+      213: -7592877244577862753
+    second: rabbit_sweet_sock2
+  - first:
+      213: -67780108334430251
+    second: rabbit_sweet_shoe_icon
+  - first:
+      213: 566538055545189113
+    second: rabbit_sweet_headband_icon
+  - first:
+      213: 449196390590667205
+    second: rabbit_sweet_bag_icon
+  - first:
+      213: 5996617267099573999
+    second: rabbit_sweet_dress_icon
+  - first:
+      213: -6591723586173746474
+    second: rabbit_sweet_hair_icon
+  - first:
+      213: -1610324588622608268
+    second: rabbit_sweet_socks_icon
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rabbit_sweet_dress
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1381
+        width: 408
+        height: 584
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d252b603145b74c60800000000000000
+      internalID: 7802404171032503597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_rabbit_sweet_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 260
+        width: 387
+        height: 569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce13a5ce65d7d8660800000000000000
+      internalID: 7389700375870845420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_rabbit_sweet_2
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 542
+        width: 91
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d828fba5e00010e0800000000000000
+      internalID: -2301338423153645352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_hair
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2018
+        width: 180
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dba14a278c89250800000000000000
+      internalID: 5951727302275153282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_hair2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2070
+        width: 160
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135357bcc65b59a80800000000000000
+      internalID: -8460656846071057103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_hair3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2150
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efba92c0f2cffa140800000000000000
+      internalID: 4733279012387400702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_headband
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2037
+        width: 193
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8081b18278edfc3b0800000000000000
+      internalID: -5489924748666529784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_sleeve
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1665
+        width: 129
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d8016ee5b98cdd0800000000000000
+      internalID: -2465549964096271042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_bag1
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1750
+        width: 104
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e4e66778769e520800000000000000
+      internalID: 2731828480482102788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_bag2
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1700
+        width: 142
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5162eb41ffb92b250800000000000000
+      internalID: 5958996776831559189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_shoe1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1199
+        width: 167
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a561c6875be2a0590800000000000000
+      internalID: -7707296455346874790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_shoe2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1178
+        width: 131
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2220cbb70ce1fb420800000000000000
+      internalID: 2647868917975613986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_sock1
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1127
+        width: 192
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c9aa4111a9a3c20800000000000000
+      internalID: 3187029084469894180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_sock2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1155
+        width: 157
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b2ac5ff5ea0a690800000000000000
+      internalID: -7592877244577862753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_shoe_icon
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 2154
+        width: 103
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d783efb9523f0ff0800000000000000
+      internalID: -67780108334430251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_headband_icon
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 2017
+        width: 127
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2f2802c5fbcd700800000000000000
+      internalID: 566538055545189113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_bag_icon
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1836
+        width: 118
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c95b8fbcbddb3600800000000000000
+      internalID: 449196390590667205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_dress_icon
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1689
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee917b02a3483350800000000000000
+      internalID: 5996617267099573999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_hair_icon
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1560
+        width: 136
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2cc84a25e7584a0800000000000000
+      internalID: -6591723586173746474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rabbit_sweet_socks_icon
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1429
+        width: 113
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478821a815af6a9e0800000000000000
+      internalID: -1610324588622608268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9c1ebd6f0dca08843a11d20472b4fcdd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

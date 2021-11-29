@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: 2f8ab142769168e49b768343bb5e628f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7912547801327663232
+    second: ln_cunning_imp_0
+  - first:
+      213: 2407474485796445744
+    second: ln_cunning_imp_1
+  - first:
+      213: -6327476206286694677
+    second: ln_cunning_imp_2
+  - first:
+      213: 867505181533121760
+    second: ln_cunning_imp_3
+  - first:
+      213: 3696967112342713911
+    second: ln_cunning_imp_4
+  - first:
+      213: 7165466137840458095
+    second: ln_cunning_imp_5
+  - first:
+      213: 8808142376155810326
+    second: ln_cunning_imp_6
+  - first:
+      213: -7677910560747385603
+    second: ln_cunning_imp_7
+  - first:
+      213: -6300599387977197075
+    second: ln_cunning_imp_8
+  - first:
+      213: 2013351212230801257
+    second: ln_cunning_imp_9
+  - first:
+      213: -3376531673175460776
+    second: ln_cunning_imp_10
+  - first:
+      213: -7054514381541816567
+    second: ln_cunning_imp_11
+  - first:
+      213: 2572019986824961110
+    second: ln_cunning_imp_12
+  - first:
+      213: 8379130116244560687
+    second: ln_cunning_imp_13
+  - first:
+      213: -7067971983702488301
+    second: ln_cunning_imp_14
+  - first:
+      213: 5223099485828418278
+    second: ln_cunning_imp_15
+  - first:
+      213: 3322663893718173840
+    second: ln_cunning_imp_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ln_cunning_imp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2391
+        width: 199
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088fe668d440fcd60800000000000000
+      internalID: 7912547801327663232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2026
+        width: 299
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e96bb1a41196120800000000000000
+      internalID: 2407474485796445744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2061
+        width: 139
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be69b8f2ae94038a0800000000000000
+      internalID: -6327476206286694677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1843
+        width: 253
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eca71acd5ff90c00800000000000000
+      internalID: 867505181533121760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_4
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1947
+        width: 181
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7363d7550044e4330800000000000000
+      internalID: 3696967112342713911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_5
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1974
+        width: 155
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f691214fc79d07360800000000000000
+      internalID: 7165466137840458095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_6
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 2165
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a05d5d2decc3a70800000000000000
+      internalID: 8808142376155810326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_7
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1760
+        width: 90
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc8e693605927590800000000000000
+      internalID: -7677910560747385603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_8
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1774
+        width: 74
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de953971d36cf88a0800000000000000
+      internalID: -6300599387977197075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1330
+        width: 159
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9677e15a24cd0fb10800000000000000
+      internalID: 2013351212230801257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_10
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1354
+        width: 197
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854758735562421d0800000000000000
+      internalID: -3376531673175460776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_11
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1411
+        width: 113
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907c051eb84591e90800000000000000
+      internalID: -7054514381541816567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_12
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1436
+        width: 118
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c18e50d86a1b320800000000000000
+      internalID: 2572019986824961110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_13
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1314
+        width: 125
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bd8893276a84470800000000000000
+      internalID: 8379130116244560687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_14
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1323
+        width: 103
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b0005bde489ed90800000000000000
+      internalID: -7067971983702488301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_15
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2370
+        width: 168
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea04572f4d2c7840800000000000000
+      internalID: 5223099485828418278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ln_cunning_imp_16
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 2348
+        width: 111
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098861505397c1e20800000000000000
+      internalID: 3322663893718173840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
