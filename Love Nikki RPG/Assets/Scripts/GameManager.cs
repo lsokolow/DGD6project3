@@ -34,6 +34,8 @@ public class GameManager : MonoBehaviour
         {
             PendingTurns.Add((ClothingType)i);
         }
+        PendingTurns.Remove((ClothingType)2);
+        PendingTurns.Remove((ClothingType)3);
         PlayerTurn = true;
     }
     // Start is called before the first frame update
@@ -68,7 +70,6 @@ public class GameManager : MonoBehaviour
     public IEnumerator RunTurn(TurnTakerController who)
     {
         //And tell them to handle their turn
-        Debug.Log("ITS THE TURN OF " + who.name);
         yield return StartCoroutine(who.TakeTurn());
         //Once this is over, do the next turn
         NextTurn();
@@ -85,7 +86,6 @@ public class GameManager : MonoBehaviour
         {
             scores[t] = s;
         }
-        Debug.Log(scores);
     }
 
     public void SwitchTurn()

@@ -28,8 +28,7 @@ public class PlayerController : TurnTakerController
         Button.SetActive(true);
         ChoiceLists[GameManager.GM.PendingTurns.Count - 1].SetActive(true);
         FinishTurn = false;
-        Debug.Log("Player turn start");
-
+    
         while (!FinishTurn)
         {
             yield return null;
@@ -39,7 +38,6 @@ public class PlayerController : TurnTakerController
         {
             GameManager.GM.SetScores(GameManager.GM.Selected.Type, GameManager.GM.Selected.ScoreList[GameManager.GM.category]);
         }
-        Debug.Log("Player turn end");
         Button.SetActive(false);
         ChoiceLists[GameManager.GM.PendingTurns.Count - 1].SetActive(false);
     }

@@ -7,7 +7,6 @@ public class Library : MonoBehaviour
     public List<Clothing_Icon> IconList;
     public List<Clothing> ClothingList;
     public Dictionary<ClothingType, Clothing> Typedict = new Dictionary<ClothingType, Clothing>();
-    
 
     // Start is called before the first frame update
     void Awake()
@@ -15,8 +14,7 @@ public class Library : MonoBehaviour
         GameManager.GM.lib = this;
         foreach (Clothing c in ClothingList)
         {
-            c.lib = this;
-            Typedict.Add(c.Type, c);
+                Typedict.Add(c.Type, c);
         }
 
     }

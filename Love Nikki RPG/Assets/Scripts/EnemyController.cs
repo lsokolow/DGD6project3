@@ -19,7 +19,6 @@ public class EnemyController : TurnTakerController
     }
     public override IEnumerator TakeTurn()
     {
-        Debug.Log("Enemy turn start");
 
         //while (!GameManager.GM.PlayerTurn)
         //{
@@ -27,6 +26,5 @@ public class EnemyController : TurnTakerController
         //  }
         enemyClothes[GameManager.GM.PendingTurns.Count - 1].SetActive(true);
         GameManager.GM.SwitchTurn();
-        Debug.Log("Enemy turn end");
     }
 }

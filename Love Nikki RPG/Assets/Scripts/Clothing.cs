@@ -5,7 +5,6 @@ using UnityEngine;
 public class Clothing : MonoBehaviour
 {
     public ClothingType Type;
-    public OutfitType OType;
     public SpriteRenderer S;
 
     public Library lib;
@@ -28,17 +27,11 @@ public enum ClothingType
 {
     //None,
     Hair, 
-    Hat, 
-    MainOutfit,
-    Socks,
-    Shoes,
-    Bag,
-}
-
-public enum OutfitType
-{
-    None,
+    Hat,
     Top,
     Bottom,
     Dress,
+    Socks,
+    Shoes,
+    Bag,
 }

@@ -14,6 +14,8 @@ public class Clothing_Icon : MonoBehaviour
     public float CuteScore;
     public float CoolScore;
 
+    public PageManager M;
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,14 +26,20 @@ public class Clothing_Icon : MonoBehaviour
         ScoreList.Add("Cool", CoolScore);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
     private void OnMouseUpAsButton()
     {
         C.S.sprite = Clothing;
         GameManager.GM.Selected = this;
+        M.ActiveOption = this;
     }
+
+    public void Activate()
+    {
+        //Turn shiny
+    }
+    public void Deactivate()
+    {
+        //Become default color
+    }
+
 }
