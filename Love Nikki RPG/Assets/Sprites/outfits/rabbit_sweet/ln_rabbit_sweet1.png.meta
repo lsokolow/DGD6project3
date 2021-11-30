@@ -1,58 +1,61 @@
 fileFormatVersion: 2
-guid: 2f8ab142769168e49b768343bb5e628f
+guid: 9f8a715eccd741747b75bd7fbead4310
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7912547801327663232
-    second: ln_cunning_imp_0
+      213: 7887935851935969644
+    second: rs_hair1
   - first:
-      213: 2407474485796445744
-    second: ln_cunning_imp_1
+      213: 2439261375828612084
+    second: rs_hair2
   - first:
-      213: -6327476206286694677
-    second: ln_cunning_imp_2
+      213: 5718909000465225658
+    second: rs_hair3
   - first:
-      213: 867505181533121760
-    second: ln_cunning_imp_3
+      213: -4830922880153487026
+    second: rs_dress
   - first:
-      213: 3696967112342713911
-    second: ln_cunning_imp_4
+      213: 1766332496789926222
+    second: rs_sleeve
   - first:
-      213: 7165466137840458095
-    second: ln_cunning_imp_5
+      213: -2955444932459083836
+    second: rs_shoe1
   - first:
-      213: 8808142376155810326
-    second: ln_cunning_imp_6
+      213: 5733332742329076806
+    second: rs_shoe2
   - first:
-      213: -7677910560747385603
-    second: ln_cunning_imp_7
+      213: 206423050777499249
+    second: rs_sock1
   - first:
-      213: -6300599387977197075
-    second: ln_cunning_imp_8
+      213: -2854771457698592100
+    second: rs_sock2
   - first:
-      213: 2013351212230801257
-    second: ln_cunning_imp_9
+      213: -6878993678725763341
+    second: rs_bag1
   - first:
-      213: -3376531673175460776
-    second: ln_cunning_imp_10
+      213: -6177564869076544387
+    second: rs_bag2
   - first:
-      213: -7054514381541816567
-    second: ln_cunning_imp_11
+      213: 9125708321111486835
+    second: rs_shoe_icon
   - first:
-      213: 2572019986824961110
-    second: ln_cunning_imp_12
+      213: 7495511558437230395
+    second: rs_headband_icon
   - first:
-      213: 8379130116244560687
-    second: ln_cunning_imp_13
+      213: -4473510225156448370
+    second: rs_headband
   - first:
-      213: -7067971983702488301
-    second: ln_cunning_imp_14
+      213: -7754010567455682333
+    second: rs_bag_icon
   - first:
-      213: 5223099485828418278
-    second: ln_cunning_imp_15
+      213: -4750138538438555001
+    second: rs_dress_icon
   - first:
-      213: 3322663893718173840
-    second: ln_cunning_imp_16
+      213: -1094844934038066788
+    second: rs_hair_icon
+  - first:
+      213: -2996547891748088651
+    second: rs_socks_icon
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -150,328 +153,328 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ln_cunning_imp_0
+      name: rs_hair1
       rect:
         serializedVersion: 2
         x: 0
-        y: 2391
-        width: 199
-        height: 209
+        y: 876
+        width: 188
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 088fe668d440fcd60800000000000000
-      internalID: 7912547801327663232
+      spriteID: c6136b18dd3977d60800000000000000
+      internalID: 7887935851935969644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_1
+      name: rs_hair2
       rect:
         serializedVersion: 2
-        x: 8
-        y: 2026
-        width: 299
-        height: 346
+        x: 210
+        y: 925
+        width: 147
+        height: 162
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03e96bb1a41196120800000000000000
-      internalID: 2407474485796445744
+      spriteID: 4f3589c2c4ff9d120800000000000000
+      internalID: 2439261375828612084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_2
+      name: rs_hair3
       rect:
         serializedVersion: 2
-        x: 319
-        y: 2061
-        width: 139
-        height: 223
+        x: 392
+        y: 1001
+        width: 23
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be69b8f2ae94038a0800000000000000
-      internalID: -6327476206286694677
+      spriteID: ab793839f65ad5f40800000000000000
+      internalID: 5718909000465225658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_3
+      name: rs_dress
       rect:
         serializedVersion: 2
-        x: 72
-        y: 1843
-        width: 253
-        height: 180
+        x: 0
+        y: 240
+        width: 423
+        height: 592
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eca71acd5ff90c00800000000000000
-      internalID: 867505181533121760
+      spriteID: e49f42f5c3d15fcb0800000000000000
+      internalID: -4830922880153487026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_4
+      name: rs_sleeve
       rect:
         serializedVersion: 2
-        x: 521
-        y: 1947
-        width: 181
-        height: 242
+        x: 567
+        y: 505
+        width: 147
+        height: 212
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7363d7550044e4330800000000000000
-      internalID: 3696967112342713911
+      spriteID: e4174622c06438810800000000000000
+      internalID: 1766332496789926222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_5
+      name: rs_shoe1
       rect:
         serializedVersion: 2
-        x: 762
-        y: 1974
-        width: 155
-        height: 133
+        x: 78
+        y: 47
+        width: 109
+        height: 149
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f691214fc79d07360800000000000000
-      internalID: 7165466137840458095
+      spriteID: 4c74c871e762cf6d0800000000000000
+      internalID: -2955444932459083836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_6
+      name: rs_shoe2
       rect:
         serializedVersion: 2
-        x: 868
-        y: 2165
-        width: 27
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61a05d5d2decc3a70800000000000000
-      internalID: 8808142376155810326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ln_cunning_imp_7
-      rect:
-        serializedVersion: 2
-        x: 828
-        y: 1760
+        x: 267
+        y: 53
         width: 90
-        height: 61
+        height: 141
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfc8e693605927590800000000000000
-      internalID: -7677910560747385603
+      spriteID: 64c04ada0c3e09f40800000000000000
+      internalID: 5733332742329076806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_8
+      name: rs_sock1
       rect:
         serializedVersion: 2
-        x: 604
-        y: 1774
-        width: 74
-        height: 52
+        x: 505
+        y: 0
+        width: 175
+        height: 398
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de953971d36cf88a0800000000000000
-      internalID: -6300599387977197075
+      spriteID: 1769b07cbac5dd200800000000000000
+      internalID: 206423050777499249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_9
+      name: rs_sock2
       rect:
         serializedVersion: 2
-        x: 51
-        y: 1330
-        width: 159
-        height: 460
+        x: 685
+        y: 5
+        width: 175
+        height: 387
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9677e15a24cd0fb10800000000000000
-      internalID: 2013351212230801257
+      spriteID: c9a83f40c70d168d0800000000000000
+      internalID: -2854771457698592100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_10
+      name: rs_bag1
       rect:
         serializedVersion: 2
-        x: 239
-        y: 1354
-        width: 197
-        height: 456
+        x: 765
+        y: 596
+        width: 109
+        height: 294
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 854758735562421d0800000000000000
-      internalID: -3376531673175460776
+      spriteID: 3fea46712b7e880a0800000000000000
+      internalID: -6878993678725763341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_11
+      name: rs_bag2
       rect:
         serializedVersion: 2
-        x: 453
-        y: 1411
-        width: 113
-        height: 239
+        x: 908
+        y: 550
+        width: 151
+        height: 338
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 907c051eb84591e90800000000000000
-      internalID: -7054514381541816567
+      spriteID: d7492c15b71e44aa0800000000000000
+      internalID: -6177564869076544387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_12
+      name: rs_shoe_icon
       rect:
         serializedVersion: 2
-        x: 585
-        y: 1436
-        width: 118
-        height: 227
+        x: 1126
+        y: 1012
+        width: 84
+        height: 69
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65c18e50d86a1b320800000000000000
-      internalID: 2572019986824961110
+      spriteID: 3713da33e5705ae70800000000000000
+      internalID: 9125708321111486835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_13
+      name: rs_headband_icon
       rect:
         serializedVersion: 2
-        x: 722
-        y: 1314
-        width: 125
-        height: 157
+        x: 1120
+        y: 873
+        width: 92
+        height: 108
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2bd8893276a84470800000000000000
-      internalID: 8379130116244560687
+      spriteID: b375c7aac08650860800000000000000
+      internalID: 7495511558437230395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_14
+      name: rs_headband
       rect:
         serializedVersion: 2
-        x: 900
-        y: 1323
-        width: 103
+        x: 623
+        y: 893
+        width: 174
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fd872e626eae1c0800000000000000
+      internalID: -4473510225156448370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_bag_icon
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 692
+        width: 78
         height: 143
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31b0005bde489ed90800000000000000
-      internalID: -7067971983702488301
+      spriteID: 3e0dd2ea878346490800000000000000
+      internalID: -7754010567455682333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_15
+      name: rs_dress_icon
       rect:
         serializedVersion: 2
-        x: 449
-        y: 2370
-        width: 168
-        height: 180
+        x: 1102
+        y: 540
+        width: 126
+        height: 123
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,20 +482,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ea04572f4d2c7840800000000000000
-      internalID: 5223099485828418278
+      spriteID: 78a0a76aa2e141eb0800000000000000
+      internalID: -4750138538438555001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ln_cunning_imp_16
+      name: rs_hair_icon
       rect:
         serializedVersion: 2
-        x: 708
-        y: 2348
-        width: 111
-        height: 133
+        x: 1107
+        y: 416
+        width: 110
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5649248, y: 0.5357982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99668e45545ec0f0800000000000000
+      internalID: -1094844934038066788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_socks_icon
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 289
+        width: 81
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,8 +524,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 098861505397c1e20800000000000000
-      internalID: 3322663893718173840
+      spriteID: 5b4d8ef919f1a66d0800000000000000
+      internalID: -2996547891748088651
       vertices: []
       indices: 
       edges: []

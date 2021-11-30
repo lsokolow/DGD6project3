@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: ec3d6255ad066384a9549f6fa14c7507
+guid: b6a3319d6fa76c24ca229cb06bfb2c26
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 6344209717884732669
-    second: LN_kitten_sketchbook_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -39,7 +36,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -100,32 +97,11 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: LN_kitten_sketchbook_0
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 3166
-        width: 227
-        height: 368
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df4c91710292b0850800000000000000
-      internalID: 6344209717884732669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f03a9c078b68bee488609b8cdf2f09fc
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
