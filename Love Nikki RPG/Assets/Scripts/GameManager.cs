@@ -34,8 +34,6 @@ public class GameManager : MonoBehaviour
         {
             PendingTurns.Add((ClothingType)i);
         }
-        PendingTurns.Remove((ClothingType)2);
-        PendingTurns.Remove((ClothingType)3);
         PlayerTurn = true;
     }
     // Start is called before the first frame update

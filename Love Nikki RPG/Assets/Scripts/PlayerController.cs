@@ -28,16 +28,28 @@ public class PlayerController : TurnTakerController
         Button.SetActive(true);
         ChoiceLists[GameManager.GM.PendingTurns.Count - 1].SetActive(true);
         FinishTurn = false;
-    
+       
+
+        if (GameManager.GM.scores.ContainsKey(GameManager.GM.PendingTurns[0]))
+        {
+            FinishTurn = true;
+            GameManager.GM.SwitchTurn();
+        }
+
         while (!FinishTurn)
         {
             yield return null;
         }
-        
+
         if (GameManager.GM.Selected != null)
         {
             GameManager.GM.SetScores(GameManager.GM.Selected.Type, GameManager.GM.Selected.ScoreList[GameManager.GM.category]);
+            foreach (ClothingType t in GameManager.GM.Selected.Extras)
+            {
+                GameManager.GM.SetScores(t, 0);
+            }
         }
+
         Button.SetActive(false);
         ChoiceLists[GameManager.GM.PendingTurns.Count - 1].SetActive(false);
     }

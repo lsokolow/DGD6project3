@@ -9,6 +9,7 @@ public class SelectButton : MonoBehaviour
     private void OnMouseDown()
     {
         //If I click the button, set the chosen action
+       
         Player.FinishTurn = true;
         GameManager.GM.SwitchTurn();
     }

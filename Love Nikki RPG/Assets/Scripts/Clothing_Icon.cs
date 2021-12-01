@@ -5,6 +5,7 @@ using UnityEngine;
 public class Clothing_Icon : MonoBehaviour
 {
     public ClothingType Type;
+    public List<ClothingType> Extras;
 
     public Sprite Clothing;
     public Clothing C;

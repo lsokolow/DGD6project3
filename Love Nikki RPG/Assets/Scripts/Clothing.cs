@@ -30,7 +30,6 @@ public enum ClothingType
     Hat,
     Top,
     Bottom,
-    Dress,
     Socks,
     Shoes,
     Bag,
