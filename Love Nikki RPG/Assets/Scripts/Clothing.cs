@@ -5,7 +5,8 @@ using UnityEngine;
 public class Clothing : MonoBehaviour
 {
     public ClothingType Type;
-    public SpriteRenderer S;
+    public AccessoryType AType;
+    public  List <SpriteRenderer> S;
 
     public Library lib;
 
@@ -13,7 +14,24 @@ public class Clothing : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        S = this.GetComponent<SpriteRenderer>();
+        
+        if (GetComponent<SpriteRenderer>() != null)
+        {
+            S.Add(this.GetComponent<SpriteRenderer>());
+        }
+        if (GetComponent<SpriteRenderer>() == null)
+        {
+            SpriteRenderer[] srender;
+
+            srender = GetComponentsInChildren<SpriteRenderer>();
+
+            foreach (SpriteRenderer s in srender)
+            {
+                S.Add(s);
+            }
+        }
+
+
         
     }
 
@@ -32,5 +50,16 @@ public enum ClothingType
     Bottom,
     Socks,
     Shoes,
-    Bag,
+    Accessory,
+}
+
+public enum AccessoryType
+{
+    None,
+    LeftHold,
+    RightHold,
+    Bracelet,
+    Necklace,
+    Legwarmers,
+    Earrings,
 }

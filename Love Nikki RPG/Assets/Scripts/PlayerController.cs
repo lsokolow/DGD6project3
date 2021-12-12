@@ -1,14 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerController : TurnTakerController
 {
     //A link to the UI that lets me pick an action
-    public GameObject Button;
+    public button Button;
     public bool FinishTurn;
 
     public List<GameObject> ChoiceLists;
+
+    public TextMeshPro PlayerScoreText;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +29,8 @@ public class PlayerController : TurnTakerController
     public override IEnumerator TakeTurn()
     {
         //At the start of my turn, turn on my action choice buttons
-        Button.SetActive(true);
+        Button.gameObject.SetActive(true);
+        Button.R.color = Button.OriginalColor;
         ChoiceLists[GameManager.GM.PendingTurns.Count - 1].SetActive(true);
         FinishTurn = false;
        
@@ -41,16 +46,28 @@ public class PlayerController : TurnTakerController
             yield return null;
         }
 
-        if (GameManager.GM.Selected != null)
+        Button.gameObject.SetActive(false);
+        if (GameManager.GM.PendingTurns[0] == ClothingType.Accessory)
         {
-            GameManager.GM.SetScores(GameManager.GM.Selected.Type, GameManager.GM.Selected.ScoreList[GameManager.GM.category]);
-            foreach (ClothingType t in GameManager.GM.Selected.Extras)
+            foreach(Clothing c in GameManager.GM.lib.ClothingList)
             {
-                GameManager.GM.SetScores(t, 0);
+                if (c.Type == ClothingType.Accessory && GameManager.GM.scores.ContainsKey(c.AType))
+                {
+                    GameManager.GM.FullScore += GameManager.GM.scores[c.AType];
+                }
             }
-        }
 
-        Button.SetActive(false);
+        }
+        else
+        {
+            if (GameManager.GM.scores.ContainsKey(GameManager.GM.PendingTurns[0]))
+            {
+                GameManager.GM.FullScore += GameManager.GM.scores[GameManager.GM.PendingTurns[0]];
+            }
+            
+        }
+        PlayerScoreText.SetText("Score:" + GameManager.GM.FullScore);
+            
         ChoiceLists[GameManager.GM.PendingTurns.Count - 1].SetActive(false);
     }
 }

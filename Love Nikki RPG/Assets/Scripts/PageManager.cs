@@ -22,19 +22,20 @@ public class PageManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (ActiveOption != null)
         {
-            ActiveOption.Activate();
             Clothing_Icon old = ActiveOption;
+
             if (ActiveOption != old)
             {
-                old.Deactivate();
-                ActiveOption.Activate();
+                // ActiveOption.CurrentlyActive = true;
             }
         }
-
     }
+
 }
+
 public enum MenuPages
 {
     HairMenu,
