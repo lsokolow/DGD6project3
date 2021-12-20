@@ -32,6 +32,7 @@ public class button : MonoBehaviour
                 break;
             case buttons.Reset:
                 GameManager.GM.Reset();
+                gameObject.SetActive(false);
                 GameManager.GM.EndPopUp.SetActive(false);
                 break;
             case buttons.Select:
@@ -46,10 +47,14 @@ public class button : MonoBehaviour
                 break;
             case buttons.NextLevel:
                 GameManager.GM.Nextlvl();
+                gameObject.SetActive(false);
+                GameManager.GM.EndPopUp.SetActive(false);
                 break;
             case buttons.PlayAgain:
                 GameManager.GM.level = 0;
                 GameManager.GM.Reset();
+                gameObject.SetActive(false);
+                GameManager.GM.EndPopUp.SetActive(false);
                 break;
         }
 

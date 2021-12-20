@@ -145,6 +145,7 @@ public class GameManager : MonoBehaviour
     public void Reset()
     {
         scores.Clear();
+        PendingTurns.Clear();
         FullScore = 0;
         Enemy.EnemyScore = 0;
 
@@ -152,6 +153,14 @@ public class GameManager : MonoBehaviour
         Player.PlayerScoreText.SetText("Score:");
 
         category = lvlcategories[level];
+        CategoryText.SetText("Category:<br>" + category);
+
+        
+
+        foreach (int i in Enum.GetValues(typeof(ClothingType)))
+        {
+            PendingTurns.Add((ClothingType)i);
+        }
 
         foreach (Clothing c in lib.ClothingList)
         {
@@ -172,10 +181,7 @@ public class GameManager : MonoBehaviour
             g.SetActive(false);
         }
 
-        foreach (int i in Enum.GetValues(typeof(ClothingType)))
-        {
-            PendingTurns.Add((ClothingType)i);
-        }
+
         PlayerTurn = true;
 
         NextTurn();
@@ -185,13 +191,5 @@ public class GameManager : MonoBehaviour
     {
         level++;
         Reset();
-
-        foreach (int i in Enum.GetValues(typeof(ClothingType)))
-        {
-            PendingTurns.Add((ClothingType)i);
-        }
-        PlayerTurn = true;
-        CategoryText.SetText("Category:<br>" + category);
-        NextTurn();
     }
 }
