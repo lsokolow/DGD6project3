@@ -41,7 +41,8 @@ public class Clothing_Icon : MonoBehaviour
 
     public virtual void OnMouseUpAsButton()
     {
-        GameManager.GM.Selected = this; 
+        GameManager.GM.Selected = this;
+        M.AS.Play();
     }
 
     public void Activate()

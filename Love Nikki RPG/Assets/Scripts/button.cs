@@ -10,6 +10,7 @@ public class button : MonoBehaviour
     public SpriteRenderer R;
     public Color OriginalColor;
     public PlayerController Player;
+    public AudioSource A;
 
     private void Awake()
     {
@@ -19,10 +20,12 @@ public class button : MonoBehaviour
 
     private void OnMouseDown()
     {
+        A.Play();
         //If I click the button, set the chosen action
         switch (option)
         {
             case buttons.MainMenu:
+                GameManager.GM.level = 0;
                 GameManager.GM.Reset();
                 GameManager.GM.EndPopUp.SetActive(false);
                 SceneManager.LoadScene("Scenes/MainMenu");
@@ -40,6 +43,13 @@ public class button : MonoBehaviour
                 break;
             case buttons.Quit:
                 Debug.Log("quit");
+                break;
+            case buttons.NextLevel:
+                GameManager.GM.Nextlvl();
+                break;
+            case buttons.PlayAgain:
+                GameManager.GM.level = 0;
+                GameManager.GM.Reset();
                 break;
         }
 
@@ -66,4 +76,6 @@ public enum buttons
     Select,
     Play,
     Quit,
+    NextLevel,
+    PlayAgain,
 }

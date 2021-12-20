@@ -9,6 +9,8 @@ public class PageManager : MonoBehaviour
 
     public Clothing_Icon ActiveOption;
 
+    public AudioSource AS;
+
 
     // Start is called before the first frame update
     void Start()

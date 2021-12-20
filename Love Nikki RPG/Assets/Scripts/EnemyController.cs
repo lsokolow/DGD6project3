@@ -40,6 +40,9 @@ public class EnemyController : TurnTakerController
         enemyClothes[GameManager.GM.PendingTurns.Count - 1].SetActive(true);
         EnemyScore += 50;
         EnemyScoreText.SetText("Score:" + EnemyScore);
+
+        yield return new WaitForSeconds(1);
+
         GameManager.GM.SwitchTurn();
     }
 }

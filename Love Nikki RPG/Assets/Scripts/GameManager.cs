@@ -11,6 +11,9 @@ public class GameManager : MonoBehaviour
     public TextMeshPro EndingText;
     public TextMeshPro TipText;
     public GameObject EndPopUp;
+    public GameObject NextLvlButton;
+    public GameObject ResetButton;
+    public GameObject PlayAgainButton;
 
     public TextMeshPro CategoryText;
 
@@ -33,11 +36,16 @@ public class GameManager : MonoBehaviour
 
     public bool PlayerTurn;
     public Dictionary<Enum, float> scores = new Dictionary<Enum, float>();
+    public Dictionary<int, string> lvlcategories = new Dictionary<int, string>();
+    public int level;
 
 
     private void Awake()
     {
         GM = this;
+        lvlcategories.Add(0, "Cute");
+        lvlcategories.Add(1, "Sweet");
+        category = lvlcategories[level];
         foreach (int i in Enum.GetValues(typeof(ClothingType)))
         {
             PendingTurns.Add((ClothingType)i);
@@ -109,10 +117,19 @@ public class GameManager : MonoBehaviour
 
     public void End()
     {
+        
         if (Enemy.EnemyScore < FullScore)
         {
+            if (level == 0)
+            {
+                NextLvlButton.SetActive(true);
+            }
+            if (level == 1)
+            {
+                PlayAgainButton.SetActive(true);
+            }
             //show the win screen with the reset button and main menu button
-            EndingText.SetText("You Win!");
+            EndingText.SetText("You Win!"); 
         }
 
         if (Enemy.EnemyScore > FullScore)
@@ -120,6 +137,7 @@ public class GameManager : MonoBehaviour
             //show the lose screen with the reset button and main menu button
             EndingText.SetText("You Lose.");
             TipText.SetText("Tip: Certain clothes score higher in certain categories than others.");
+            ResetButton.SetActive(true);
         }
         EndPopUp.SetActive(true);
     }
@@ -133,6 +151,8 @@ public class GameManager : MonoBehaviour
         Enemy.EnemyScoreText.SetText("Score:");
         Player.PlayerScoreText.SetText("Score:");
 
+        category = lvlcategories[level];
+
         foreach (Clothing c in lib.ClothingList)
         {
             for (int i = 0; i < c.S.Count; i++)
@@ -140,7 +160,13 @@ public class GameManager : MonoBehaviour
                 c.S[i].sprite = null;
             }
         }
-        
+        Transform[] accessories = Enemy.Accessory.GetComponentsInChildren<Transform>(true);
+
+        foreach (Transform t in accessories)
+        {
+            t.gameObject.SetActive(false);
+        }
+
         foreach (GameObject g in Enemy.enemyClothes)
         {
             g.SetActive(false);
@@ -152,6 +178,20 @@ public class GameManager : MonoBehaviour
         }
         PlayerTurn = true;
 
+        NextTurn();
+    }
+
+    public void Nextlvl()
+    {
+        level++;
+        Reset();
+
+        foreach (int i in Enum.GetValues(typeof(ClothingType)))
+        {
+            PendingTurns.Add((ClothingType)i);
+        }
+        PlayerTurn = true;
+        CategoryText.SetText("Category:<br>" + category);
         NextTurn();
     }
 }
