@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+Love Nikki RPG/[Ll]ibrary/
+Love Nikki RPG/[Tt]emp/
+Love Nikki RPG/[Oo]bj/
+Love Nikki RPG/[Bb]uild/
+Love Nikki RPG/[Bb]uilds/
+Love Nikki RPG/[Ll]ogs/
+Love Nikki RPG/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
