@@ -1,0 +1,761 @@
+fileFormatVersion: 2
+guid: f55d1bc83c59e5b40a6cdd5c67986589
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4270131103952364238
+    second: cip_hair
+  - first:
+      213: -8741224709713166129
+    second: cip_hat
+  - first:
+      213: -6897054974613214029
+    second: cip_necklace
+  - first:
+      213: -8482142147339626669
+    second: cip_shirt
+  - first:
+      213: 515591543839669199
+    second: cip_sleeve
+  - first:
+      213: -3318829969566406273
+    second: cip_phone
+  - first:
+      213: 5144947089227578274
+    second: cip_skirt
+  - first:
+      213: 6723497336068487034
+    second: cip_sock1
+  - first:
+      213: 2034397812882960032
+    second: cip_sock2
+  - first:
+      213: 7153891405626305760
+    second: cip_bracelet1
+  - first:
+      213: 8258387293267612774
+    second: cip_bracelet2
+  - first:
+      213: -3035410153638553235
+    second: cip_legwarmer1
+  - first:
+      213: 4216053990476114635
+    second: cip_legwarmer2
+  - first:
+      213: -6439408620673997937
+    second: cip_shoe1
+  - first:
+      213: 264375833353334509
+    second: cip_shoe2
+  - first:
+      213: -230014363605411814
+    second: cip_hair_icon
+  - first:
+      213: 8589119604299877324
+    second: cip_shirt_icon
+  - first:
+      213: -6097462029178625901
+    second: cip_skirt_icon
+  - first:
+      213: -1714187102912461895
+    second: cip_legwarmers_icon
+  - first:
+      213: -2356509839125786213
+    second: cip_socks_icon
+  - first:
+      213: -2972858934208319225
+    second: cip_shoes_icon
+  - first:
+      213: -7097203047906714087
+    second: cip_hat_icon
+  - first:
+      213: -6134013345735435478
+    second: cip_necklace_icon
+  - first:
+      213: 4816177763378518045
+    second: cip_bracelets_icon
+  - first:
+      213: -4705559061888799102
+    second: cip_phone_icon
+  - first:
+      213: 1452249305081193453
+    second: cip_bunny_icon
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cip_hair
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1076
+        width: 203
+        height: 232
+      alignment: 9
+      pivot: {x: 0.57, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d929492627db4c0800000000000000
+      internalID: -4270131103952364238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_hat
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1058
+        width: 185
+        height: 185
+      alignment: 9
+      pivot: {x: 0.7, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc00ea3807ee0b680800000000000000
+      internalID: -8741224709713166129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_necklace
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1030
+        width: 150
+        height: 145
+      alignment: 9
+      pivot: {x: 0.32, y: 0.88}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bca6d1fa0db840a0800000000000000
+      internalID: -6897054974613214029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_shirt
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 714
+        width: 304
+        height: 337
+      alignment: 9
+      pivot: {x: 0.605, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357d37548a0694a80800000000000000
+      internalID: -8482142147339626669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_sleeve
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 745
+        width: 127
+        height: 229
+      alignment: 9
+      pivot: {x: 0.15, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb32c307cfb72700800000000000000
+      internalID: 515591543839669199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_bunny
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 645
+        width: 156
+        height: 239
+      alignment: 9
+      pivot: {x: 0.672, y: 0.952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4619723ad8a3a00800000000000000
+      internalID: 737057220911522982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_phone
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 669
+        width: 127
+        height: 127
+      alignment: 9
+      pivot: {x: 0.44, y: 0.79}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79e2120ab521f1d0800000000000000
+      internalID: -3318829969566406273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_skirt
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 535
+        width: 250
+        height: 181
+      alignment: 9
+      pivot: {x: 0.53, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abf6995e16866740800000000000000
+      internalID: 5144947089227578274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_sock1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 18
+        width: 183
+        height: 476
+      alignment: 9
+      pivot: {x: 0.374, y: 0.605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77b5ac5439ae4d50800000000000000
+      internalID: 6723497336068487034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_sock2
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 30
+        width: 169
+        height: 489
+      alignment: 9
+      pivot: {x: 0.71, y: 0.665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae68b83802ab3c10800000000000000
+      internalID: 2034397812882960032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_bracelet1
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 465
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec631a945ab74360800000000000000
+      internalID: 7153891405626305760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_bracelet2
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 453
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664d0d80d7fab9270800000000000000
+      internalID: 8258387293267612774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_legwarmer1
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 104
+        width: 109
+        height: 233
+      alignment: 9
+      pivot: {x: 0.45, y: 0.77}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6992cc2c8e00e5d0800000000000000
+      internalID: -3035410153638553235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_legwarmer2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 132
+        width: 117
+        height: 215
+      alignment: 9
+      pivot: {x: 0.48, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca623844ce628a30800000000000000
+      internalID: 4216053990476114635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_shoe1
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 17
+        width: 121
+        height: 133
+      alignment: 9
+      pivot: {x: 0.43, y: 0.659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8363291aff92a6a0800000000000000
+      internalID: -6439408620673997937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_shoe2
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 17
+        width: 80
+        height: 146
+      alignment: 9
+      pivot: {x: 0.67, y: 0.69}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee29327b604ba300800000000000000
+      internalID: 264375833353334509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_hair_icon
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1066
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18df0ca723deccf0800000000000000
+      internalID: -230014363605411814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_shirt_icon
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1182
+        width: 149
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb43a3e5cea23770800000000000000
+      internalID: 8589119604299877324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_skirt_icon
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 976
+        width: 112
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39020671796716ba0800000000000000
+      internalID: -6097462029178625901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_legwarmers_icon
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 902
+        width: 90
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3c85c79ebf538e0800000000000000
+      internalID: -1714187102912461895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_socks_icon
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 780
+        width: 97
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91d13169cefb4fd0800000000000000
+      internalID: -2356509839125786213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_shoes_icon
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 686
+        width: 87
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701ba2bdc884eb6d0800000000000000
+      internalID: -2972858934208319225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_hat_icon
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 587
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e53b63e6ba18d90800000000000000
+      internalID: -7097203047906714087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_necklace_icon
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 456
+        width: 78
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b1fe78c5b9fdaa0800000000000000
+      internalID: -6134013345735435478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_bracelets_icon
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 379
+        width: 83
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18df49982086d240800000000000000
+      internalID: 4816177763378518045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_phone_icon
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 289
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e6f7ed6fe72beb0800000000000000
+      internalID: -4705559061888799102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cip_bunny_icon
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 166
+        width: 71
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de32ca27c0d672410800000000000000
+      internalID: 1452249305081193453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

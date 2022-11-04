@@ -1,0 +1,548 @@
+fileFormatVersion: 2
+guid: 9f8a715eccd741747b75bd7fbead4310
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7887935851935969644
+    second: rs_hair1
+  - first:
+      213: 2439261375828612084
+    second: rs_hair2
+  - first:
+      213: 5718909000465225658
+    second: rs_hair3
+  - first:
+      213: -4830922880153487026
+    second: rs_dress
+  - first:
+      213: 1766332496789926222
+    second: rs_sleeve
+  - first:
+      213: -2955444932459083836
+    second: rs_shoe1
+  - first:
+      213: 5733332742329076806
+    second: rs_shoe2
+  - first:
+      213: 206423050777499249
+    second: rs_sock1
+  - first:
+      213: -2854771457698592100
+    second: rs_sock2
+  - first:
+      213: -6878993678725763341
+    second: rs_bag1
+  - first:
+      213: -6177564869076544387
+    second: rs_bag2
+  - first:
+      213: 9125708321111486835
+    second: rs_shoes_icon
+  - first:
+      213: 7495511558437230395
+    second: rs_headband_icon
+  - first:
+      213: -4473510225156448370
+    second: rs_headband
+  - first:
+      213: -7754010567455682333
+    second: rs_bag_icon
+  - first:
+      213: -4750138538438555001
+    second: rs_dress_icon
+  - first:
+      213: -1094844934038066788
+    second: rs_hair_icon
+  - first:
+      213: -2996547891748088651
+    second: rs_socks_icon
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rs_hair1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 876
+        width: 188
+        height: 256
+      alignment: 9
+      pivot: {x: 0.56, y: 0.74}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6136b18dd3977d60800000000000000
+      internalID: 7887935851935969644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_hair2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 925
+        width: 147
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3589c2c4ff9d120800000000000000
+      internalID: 2439261375828612084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_hair3
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1001
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab793839f65ad5f40800000000000000
+      internalID: 5718909000465225658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_dress
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 423
+        height: 592
+      alignment: 9
+      pivot: {x: 0.529, y: 0.825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49f42f5c3d15fcb0800000000000000
+      internalID: -4830922880153487026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_sleeve
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 505
+        width: 147
+        height: 212
+      alignment: 9
+      pivot: {x: 0.42, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4174622c06438810800000000000000
+      internalID: 1766332496789926222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_shoe1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 47
+        width: 109
+        height: 149
+      alignment: 9
+      pivot: {x: 0.41, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c74c871e762cf6d0800000000000000
+      internalID: -2955444932459083836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_shoe2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 53
+        width: 90
+        height: 141
+      alignment: 9
+      pivot: {x: 0.535, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c04ada0c3e09f40800000000000000
+      internalID: 5733332742329076806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_sock1
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 175
+        height: 398
+      alignment: 9
+      pivot: {x: 0.4, y: 0.705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1769b07cbac5dd200800000000000000
+      internalID: 206423050777499249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_sock2
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 5
+        width: 175
+        height: 387
+      alignment: 9
+      pivot: {x: 0.72, y: 0.86}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a83f40c70d168d0800000000000000
+      internalID: -2854771457698592100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_bag1
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 596
+        width: 109
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fea46712b7e880a0800000000000000
+      internalID: -6878993678725763341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_bag2
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 550
+        width: 151
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7492c15b71e44aa0800000000000000
+      internalID: -6177564869076544387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_shoes_icon
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1012
+        width: 84
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3713da33e5705ae70800000000000000
+      internalID: 9125708321111486835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_headband_icon
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 873
+        width: 92
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b375c7aac08650860800000000000000
+      internalID: 7495511558437230395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_headband
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 893
+        width: 174
+        height: 200
+      alignment: 9
+      pivot: {x: 0.557, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fd872e626eae1c0800000000000000
+      internalID: -4473510225156448370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_bag_icon
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 692
+        width: 78
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0dd2ea878346490800000000000000
+      internalID: -7754010567455682333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_dress_icon
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 540
+        width: 126
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a0a76aa2e141eb0800000000000000
+      internalID: -4750138538438555001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_hair_icon
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 416
+        width: 110
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5649248, y: 0.5357982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99668e45545ec0f0800000000000000
+      internalID: -1094844934038066788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rs_socks_icon
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 289
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4d8ef919f1a66d0800000000000000
+      internalID: -2996547891748088651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

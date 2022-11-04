@@ -1,0 +1,644 @@
+fileFormatVersion: 2
+guid: 53400a6bc693d844eb2789045f85a29e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7342107531077323571
+    second: hc_hair1
+  - first:
+      213: 3331676030081661293
+    second: hc_hair2
+  - first:
+      213: -6439764088777272479
+    second: hc_shirt
+  - first:
+      213: -7562506113997972913
+    second: hc_sleeve
+  - first:
+      213: 8940593246623325519
+    second: hc_sock1
+  - first:
+      213: -5408810537702645360
+    second: hc_sock2
+  - first:
+      213: -2812886455449299974
+    second: hc_shoe1
+  - first:
+      213: -1603430346044306541
+    second: hc_shoe2
+  - first:
+      213: -5619415604393780733
+    second: hc_skirt
+  - first:
+      213: -6319451391408289032
+    second: hc_bracelet
+  - first:
+      213: -6874709432233118317
+    second: hc_necklace
+  - first:
+      213: -7396705251850291032
+    second: hc_face_decal
+  - first:
+      213: -3251530797355692075
+    second: hc_hair_clip
+  - first:
+      213: 8517114087913216964
+    second: hc_necklace_icon
+  - first:
+      213: 4089159463007776418
+    second: hc_shirt_icon
+  - first:
+      213: -605569786058116991
+    second: hc_hair_ico
+  - first:
+      213: 2216603626801694248
+    second: hc_skirt_icon
+  - first:
+      213: -6639247243133674283
+    second: hc_socks_icon
+  - first:
+      213: -3388271991389795111
+    second: hc_shoes_icon
+  - first:
+      213: 409963178201187057
+    second: hc_hair_clip_icon
+  - first:
+      213: 700859567349309516
+    second: hc_face_decal_icon
+  - first:
+      213: 5719275142706685570
+    second: hc_bracelet_icon
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hc_hair1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 673
+        width: 186
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b859c36e764e560800000000000000
+      internalID: 7342107531077323571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_hair2
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 670
+        width: 190
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6973b782bd7c3e20800000000000000
+      internalID: 3331676030081661293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_shirt
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 444
+        width: 192
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1631d1b3eac51a6a0800000000000000
+      internalID: -6439764088777272479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_sleeve
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 513
+        width: 23
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a5e67d1c49c0790800000000000000
+      internalID: -7562506113997972913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_sock1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 27
+        width: 132
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d5d32403e531c70800000000000000
+      internalID: 8940593246623325519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_sock2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 37
+        width: 96
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09128da197b00f4b0800000000000000
+      internalID: -5408810537702645360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_shoe1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 34
+        width: 133
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3df6d0cae96f8d0800000000000000
+      internalID: -2812886455449299974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_shoe2
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 32
+        width: 135
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b82f978987fb9e0800000000000000
+      internalID: -1603430346044306541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_skirt
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 261
+        width: 232
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a52ded743d302b0800000000000000
+      internalID: -5619415604393780733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_bracelet
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 387
+        width: 62
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fac2cff07ccc48a0800000000000000
+      internalID: -6319451391408289032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_necklace
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 525
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395b7b5f1302890a0800000000000000
+      internalID: -6874709432233118317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_face_decal
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 610
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8723b43cf995990800000000000000
+      internalID: -7396705251850291032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_hair_clip
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 678
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df0f5797fd30e2d0800000000000000
+      internalID: -3251530797355692075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_necklace_icon
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 912
+        width: 80
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbda89232ed23670800000000000000
+      internalID: 8517114087913216964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_shirt_icon
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 773
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae6186cddc9fb830800000000000000
+      internalID: 4089159463007776418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_hair_ico
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 697
+        width: 98
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180fb4fec759897f0800000000000000
+      internalID: -605569786058116991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_skirt_icon
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 585
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8268b572145f2ce10800000000000000
+      internalID: 2216603626801694248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_socks_icon
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 511
+        width: 87
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc96010fc7acd3a0800000000000000
+      internalID: -6639247243133674283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_shoes_icon
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 420
+        width: 104
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc4ece53907af0d0800000000000000
+      internalID: -3388271991389795111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_hair_clip_icon
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 333
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f20ca7a65b70b500800000000000000
+      internalID: 409963178201187057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_face_decal_icon
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 254
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c402a4d2014f9b900800000000000000
+      internalID: 700859567349309516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hc_bracelet_icon
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 147
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286e0c5b072fe5f40800000000000000
+      internalID: 5719275142706685570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

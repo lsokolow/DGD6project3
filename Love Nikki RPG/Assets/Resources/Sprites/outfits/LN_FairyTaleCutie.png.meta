@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 77e5f0cf96d58814e985a997b94c5ed7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1756804901676904584
+    second: ftc_dress
+  - first:
+      213: 3252807329511509134
+    second: ftc_shoe1
+  - first:
+      213: 791778385088995696
+    second: ftc_shoe2
+  - first:
+      213: 129359451022750242
+    second: ftc_sock1
+  - first:
+      213: 4757174180395436671
+    second: ftc_sock2
+  - first:
+      213: 901192852799830248
+    second: ftc_flowers_icon
+  - first:
+      213: -7274055541934934486
+    second: ftc_hair_acessory_icon
+  - first:
+      213: 8930187264452306961
+    second: ftc_shoes_icon
+  - first:
+      213: -231322191144538204
+    second: ftc_socks_icon
+  - first:
+      213: -8334028027225146475
+    second: ftc_dress_icon
+  - first:
+      213: 7133711797763366702
+    second: ftc_hair_icon
+  - first:
+      213: -6810757518366226761
+    second: LN_FairyTaleCutie_11
+  - first:
+      213: -6841327455147831062
+    second: ftc_hair_accessory
+  - first:
+      213: 7305108248911088106
+    second: ftc_hair1
+  - first:
+      213: 4799318711075281075
+    second: ftc_hair2
+  - first:
+      213: -1171586848002531754
+    second: ftc_flowers
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ftc_dress
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 381
+        width: 365
+        height: 443
+      alignment: 9
+      pivot: {x: 0.482, y: 0.79}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f02e7ff339e97e0800000000000000
+      internalID: -1756804901676904584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_shoe1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 98
+        width: 102
+        height: 103
+      alignment: 9
+      pivot: {x: 0.376, y: 0.644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c0256380b442d20800000000000000
+      internalID: 3252807329511509134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_shoe2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 95
+        width: 81
+        height: 113
+      alignment: 9
+      pivot: {x: 0.556, y: 0.694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071ef080f36fcfa00800000000000000
+      internalID: 791778385088995696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_sock1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 42
+        width: 139
+        height: 334
+      alignment: 9
+      pivot: {x: 0.356, y: 0.815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222fc8e3cb39bc100800000000000000
+      internalID: 129359451022750242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_sock2
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 75
+        width: 134
+        height: 296
+      alignment: 9
+      pivot: {x: 0.84, y: 1.015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a412566b0e40240800000000000000
+      internalID: 4757174180395436671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_flowers_icon
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 125
+        width: 115
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e83149ff1ea18c00800000000000000
+      internalID: 901192852799830248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_hair_acessory_icon
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 288
+        width: 73
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26b182360d5d0b90800000000000000
+      internalID: -7274055541934934486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_shoes_icon
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 420
+        width: 86
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118a56bb0066eeb70800000000000000
+      internalID: 8930187264452306961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_socks_icon
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 541
+        width: 83
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af2a2851bd2accf0800000000000000
+      internalID: -231322191144538204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_dress_icon
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 652
+        width: 125
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b78113aa5975c80800000000000000
+      internalID: -8334028027225146475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_hair_icon
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 819
+        width: 110
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fd2b38519000360800000000000000
+      internalID: 7133711797763366702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LN_FairyTaleCutie_11
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 959
+        width: 108
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6c57a3f145b71a0800000000000000
+      internalID: -6810757518366226761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_hair_accessory
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 973
+        width: 53
+        height: 44
+      alignment: 9
+      pivot: {x: 1.75, y: 1.85}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae059cb2de8be01a0800000000000000
+      internalID: -6841327455147831062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_hair1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 866
+        width: 157
+        height: 241
+      alignment: 9
+      pivot: {x: 0.56, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae90f1e8f35f06560800000000000000
+      internalID: 7305108248911088106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_hair2
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 853
+        width: 159
+        height: 186
+      alignment: 9
+      pivot: {x: 0.699, y: 0.71}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8178990fa9a9240800000000000000
+      internalID: 4799318711075281075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ftc_flowers
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 622
+        width: 177
+        height: 185
+      alignment: 9
+      pivot: {x: 0.265, y: 0.83}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e1a4518ffadbfe0800000000000000
+      internalID: -1171586848002531754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

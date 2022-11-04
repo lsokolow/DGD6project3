@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 0dcc48cdd709f20489f71f180a6a6619
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1450285643673254569
+    second: ks_hair
+  - first:
+      213: 8674506684891836658
+    second: ks_bag1
+  - first:
+      213: -5610807587185272590
+    second: ks_bag2
+  - first:
+      213: -396018911185671221
+    second: ks_main
+  - first:
+      213: -1147745539158302582
+    second: ks_tail
+  - first:
+      213: -2951446716026656526
+    second: ks_sock1
+  - first:
+      213: 1519368863321656580
+    second: ks_sock2
+  - first:
+      213: 2156825710024313945
+    second: ks_shoe1
+  - first:
+      213: 2902286312618829702
+    second: ks_shoe2
+  - first:
+      213: -7525932225325523778
+    second: ks_tail_icon
+  - first:
+      213: -5843660282738638708
+    second: ks_main_icon
+  - first:
+      213: 7855423198100388554
+    second: ks_hair_icon
+  - first:
+      213: 3611735990851528991
+    second: ks_socks_icon
+  - first:
+      213: 8518228317693422395
+    second: ks_shoes_icon
+  - first:
+      213: -1312919444321338204
+    second: ks_bag_icon
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ks_hair
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 266
+        height: 331
+      alignment: 9
+      pivot: {x: 0.544, y: 0.815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa3ef5eb13702410800000000000000
+      internalID: 1450285643673254569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_bag1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 962
+        width: 153
+        height: 177
+      alignment: 9
+      pivot: {x: 0.597, y: 0.98}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0bab2ded9026870800000000000000
+      internalID: 8674506684891836658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_bag2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1146
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f851ce0a386222b0800000000000000
+      internalID: -5610807587185272590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_main
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 546
+        width: 274
+        height: 396
+      alignment: 9
+      pivot: {x: 0.5, y: 0.74}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbe07206ee018af0800000000000000
+      internalID: -396018911185671221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_tail
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 603
+        width: 308
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a802eed53836210f0800000000000000
+      internalID: -1147745539158302582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_sock1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 159
+        height: 531
+      alignment: 9
+      pivot: {x: 0.395, y: 0.551}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8ecb569da5a07d0800000000000000
+      internalID: -2951446716026656526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_sock2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 167
+        height: 517
+      alignment: 9
+      pivot: {x: 0.69, y: 0.652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d83156ee1e51510800000000000000
+      internalID: 1519368863321656580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_shoe1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 158
+        height: 301
+      alignment: 9
+      pivot: {x: 0.59, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ccd605e859eed10800000000000000
+      internalID: 2156825710024313945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_shoe2
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 25
+        width: 147
+        height: 281
+      alignment: 9
+      pivot: {x: 0.27, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687af1c360ef64820800000000000000
+      internalID: 2902286312618829702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_tail_icon
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1154
+        width: 109
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc9ec1e3848e8790800000000000000
+      internalID: -7525932225325523778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_main_icon
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1015
+        width: 109
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c800e431fe527eea0800000000000000
+      internalID: -5843660282738638708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_hair_icon
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 863
+        width: 122
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaf22367c1140d60800000000000000
+      internalID: 7855423198100388554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_socks_icon
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 746
+        width: 104
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19e2357fb67f1230800000000000000
+      internalID: 3611735990851528991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_shoes_icon
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 585
+        width: 98
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b2acff583d63670800000000000000
+      internalID: 8518228317693422395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ks_bag_icon
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 473
+        width: 110
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acf586b8b297cde0800000000000000
+      internalID: -1312919444321338204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class Clothing_Icon : MonoBehaviour
 {
-    public ClothingType Type;
-    public AccessoryType AType;
-    public ClothingStyle Style;
+    public ParticleSystem hearts;
 
-    public PageManager M;
+    //public Sets Set;
 
-    public List<Sprite> Clothing;
-    public Clothing C;
+    public SpriteRenderer SR;
 
     public Dictionary<string, float> ScoreList = new Dictionary<string, float>();
 
@@ -20,7 +17,9 @@ public class Clothing_Icon : MonoBehaviour
     [HideInInspector]
     public float CuteScore, CoolScore, SweetScore, ElegantScore;
 
-    
+    public List<ClothingType> CExtras;
+
+    public Example E;
 
 
     // Start is called before the first frame update
@@ -31,18 +30,39 @@ public class Clothing_Icon : MonoBehaviour
         ScoreList.Add("Cool", CoolScore);
         ScoreList.Add("Sweet", SweetScore);
         ScoreList.Add("Elegant", ElegantScore);
+
+        hearts = GetComponentInChildren<ParticleSystem>();
+        SR = GetComponentInChildren<SpriteRenderer>();
+        SR.sprite = E.IconSprite;
+
+        
     }
 
-    public virtual void Update()
+    public void Update()
     {
         
     }
 
-
-    public virtual void OnMouseUpAsButton()
+    public void OnMouseUpAsButton()
     {
-        GameManager.GM.Selected = this;
-        M.AS.Play();
+        God.GM.Selected = this;
+        E.PM.AS.Play();
+        hearts.Play();
+
+        if (E.PM.ActiveOption == this)
+        {
+            removeclothes();
+            E.PM.ActiveOption = null;
+        }
+        else
+        {
+            if (E.PM.ActiveOption != null && E.PM.ActiveOption.E.Type == E.Type)
+            {
+                E.PM.ActiveOption.removeclothes();
+            }
+            changeclothes();
+            E.PM.ActiveOption = this;
+        }
     }
 
     public void Activate()
@@ -56,30 +76,44 @@ public class Clothing_Icon : MonoBehaviour
         //Debug.Log(this.name + "deactivated");
     }
 
-    public virtual void changeclothes()
+    public void changeclothes()
     {
-        for (int i = 0; i < Clothing.Count; i++)
+        for (int i = 0; i < E.ClothingSprites.Count; i++)
         {
-            C.S[i].sprite = Clothing[i];
+            E.C.S[i].sprite = E.ClothingSprites[i];
         }
 
-        if (Clothing.Count < C.S.Count)
+        if (E.ClothingSprites.Count < E.C.S.Count)
         {
-            C.S[C.S.Count - 1].sprite = null;
+            E.C.S[E.C.S.Count - 1].sprite = null;
         }
+
+        foreach (ClothingType c in CExtras)
+        {
+            God.GM.SetScores(c, 0);
+        }
+
+        God.GM.SetScores(E.Type, ScoreList[God.GM.category]);
     }
 
-    public virtual void removeclothes()
+    public void removeclothes()
     {
-        for (int i = 0; i < Clothing.Count; i++)
+        for (int i = 0; i < E.ClothingSprites.Count; i++)
         {
-            C.S[i].sprite = null;
+            E.C.S[i].sprite = null;
         }
+
+        foreach (ClothingType c in CExtras)
+        {
+            God.GM.scores.Remove(c);
+        }
+
+        God.GM.SetScores(E.Type, 0f);
     }
 
     public void CalculateScores()
     {
-        switch (Style)
+        switch (E.Style)
         {
             case ClothingStyle.None:
                 break;
@@ -114,14 +148,7 @@ public class Clothing_Icon : MonoBehaviour
         }
 
     }
-
 }
 
-public enum ClothingStyle
-{
-    None,
-    Cute,
-    Cool,
-    Sweet,
-    Elegant,
-}
+
+
